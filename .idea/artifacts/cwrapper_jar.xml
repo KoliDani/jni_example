@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cwrapper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cwrapper_jar</output-path>
+    <root id="archive" name="cwrapper.jar">
+      <element id="module-output" name="cwrapper" />
+    </root>
+  </artifact>
+</component>

@@ -42,9 +42,7 @@ export JAVA_INCLUDES="%JAVA_HOME%\include"
 export JAVA_WIN32_INCLUDES="%JAVA_HOME%\include\win32"
 g++ -static -static-libgcc -static-libstdc++ -I"$JAVA_INCLUDES" -I"$JAVA_WIN32_INCLUDES" -shared -o "*.dll" "*.cpp" -Wl,--add-stdcall-alias
 ```
-### 5. Create a folder in the root of the java project as: "native_libs"
-For better syntax highlighting, you can specify the language as `text`:
-
+### 5. Create a folder structure in the root of the java project as following:
 ````markdown
 jni_example/
 ├── src/
